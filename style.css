@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(249, 242, 39, 0.664), rgba(59, 184, 21, 0.689));
+    background-image: linear-gradient(rgb(239, 234, 90), rgb(104, 192, 78));
     
 }
 
@@ -31,13 +31,13 @@ body H1{
  input{
     height: 40px;
     width: 279px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border-radius: 10px;
     border: 1px solid black;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1.2em;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 #cep{
@@ -49,19 +49,16 @@ body H1{
 }
 
 button{
-    padding: 0px 7px;
+    padding: 2px 2px;
     height: 40px;
-    border-radius: 10px;
+    width: 280px;
     border: none;
+    margin-left: 1px;
+    font-size: 0.9em;  
+    background-color: #c56565;
+    color: rgb(79, 13, 13);
+    margin-top: -7px;
     display: block;
-    margin-left: 185px;
-    margin-top: -55px;
-    position: absolute;
-    font-size: 1.1em;  
-    box-shadow: 4px 4px 0px rgba(151, 150, 150, 0.689);
-    background-color: #455a45;
-    color: white;
-    cursor: pointer;
 }
 
 button:hover{
@@ -115,4 +112,20 @@ footer p{
         font-size: 1.2em;
     }
 
+    #cep{
+        width: 270px;
+    }
+
+    button{
+        padding: 5px 5px;
+        height: 50px;
+        width: 280px;
+        border: none;
+        margin-top: -3px;
+        font-size: 0.9em;  
+        background-color: #c56565;
+        color: rgb(79, 13, 13);
+        float: right;
+        display: block;
+    }
 }
