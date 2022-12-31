@@ -10,8 +10,6 @@ const showData = (result)=>{
     }
 }
 
-
-
 cep.addEventListener("blur",(e) =>{
     let search = cep.value.replace("-", "")
     const options = {
@@ -24,6 +22,5 @@ cep.addEventListener("blur",(e) =>{
     .then(response=>{ response.json()
         .then( data => showData(data))
     })
-    .catch(e => console.log('Deu erro: '+ e,message))
-    
+    .catch(e => console.log('Deu erro: '+ e,message))   
 })
