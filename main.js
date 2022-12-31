@@ -10,7 +10,7 @@ const showData = (result)=>{
     }
 }
 
-cep.addEventListener("blur",(e) =>{
+cep.addEventListener("blur", () =>{
     let search = cep.value.replace("-", "")
     const options = {
         method: 'GET',
