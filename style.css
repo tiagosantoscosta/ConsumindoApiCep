@@ -14,7 +14,8 @@ body{
 body H1{
     text-align: center;
     margin-top: 30px;
-    color: #1d1d1d;   
+    color: white; 
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);  
 }
 
 #container{
@@ -34,7 +35,7 @@ body H1{
     width: 279px;
     margin-bottom: 10px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(47, 113, 54);
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1.2em;
@@ -49,24 +50,21 @@ body H1{
     width: 60px;
 }
 
-div#aviso{
-    padding: 2px 2px;
-    height: 40px;
-    width: 280px;
-    border: none;
-    margin-left: 1px;
-    font-size: 0.9em;  
-    background-color: #d48f8f;
-    color: rgb(79, 13, 13);
-    margin-top: -7px;
-    display: block;
+div#pesquisar{
+    background-color: rgb(164, 229, 164);
+    display: inline;
+    padding: 10px 6px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(103, 103, 103);
+    font-size: 1.1em;
+    color: #17401c;
 }
 
 label{
    font-weight: 600; 
    padding-left: 5px;
    font-size: 1.2em;
-   
+   color: rgb(14, 78, 14);
 }
 
 footer{
@@ -117,16 +115,5 @@ footer h2{
         width: 270px;
     }
 
-    div#aviso{
-        padding: 5px 5px;
-        height: 50px;
-        width: 280px;
-        border: none;
-        margin-top: -3px;
-        font-size: 0.9em;  
-        background-color: #d48f8f;
-        color: rgb(79, 13, 13);
-        float: right;
-        display: block;
-    }
+    
 }

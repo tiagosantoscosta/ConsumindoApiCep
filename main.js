@@ -1,4 +1,6 @@
-const cep = document.querySelector("#cep")
+
+const pesquisar = document.querySelector("#pesquisar")
+
 
 const showData = (result)=>{
     for(const campo in result){
@@ -10,7 +12,7 @@ const showData = (result)=>{
     }
 }
 
-cep.addEventListener("blur", () =>{
+pesquisar.addEventListener("click", () =>{
     let search = cep.value.replace("-", "")
     const options = {
         method: 'GET',
