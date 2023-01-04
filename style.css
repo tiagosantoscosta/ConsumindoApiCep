@@ -7,8 +7,7 @@
 
 
 body{
-    background-image: linear-gradient(rgb(239, 234, 90), rgb(104, 192, 78));
-    
+    background-image: linear-gradient(rgb(242, 238, 135), rgb(129, 195, 110));     
 }
 
 body H1{
@@ -17,7 +16,9 @@ body H1{
     color: white; 
     text-shadow: 2px 2px 5px rgb(0, 0, 0);  
 }
-
+#labelcep{
+    color: rgb(214, 95, 95);
+}
 #container{
     margin: auto;
     display: block;
